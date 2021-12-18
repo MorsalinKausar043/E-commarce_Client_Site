@@ -18,7 +18,7 @@ const Register = () => {
         setUser(data);
         navigate('/cart')
 
-        fetch('http://localhost:5000/addUser', {
+        fetch('https://floating-caverns-25596.herokuapp.com/addUser', {
         method: 'POST',
         headers: {
                 'authorization': `Bearer ${getStarting.token}`,
